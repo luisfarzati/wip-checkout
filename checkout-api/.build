@@ -1,0 +1,2233 @@
+{
+  "program": {
+    "fileInfos": {
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "1f753cee573dea40df8a9dc873fef5566957b19ad513874f6643d8dfb14842d0",
+        "signature": "1f753cee573dea40df8a9dc873fef5566957b19ad513874f6643d8dfb14842d0"
+      },
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.d.ts": {
+        "version": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96",
+        "signature": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96"
+      },
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2016.d.ts": {
+        "version": "5f217838d25704474d9ef93774f04164889169ca31475fe423a9de6758f058d1",
+        "signature": "5f217838d25704474d9ef93774f04164889169ca31475fe423a9de6758f058d1"
+      },
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2017.d.ts": {
+        "version": "459097c7bdd88fc5731367e56591e4f465f2c9de81a35427a7bd473165c34743",
+        "signature": "459097c7bdd88fc5731367e56591e4f465f2c9de81a35427a7bd473165c34743"
+      },
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2018.d.ts": {
+        "version": "2edd3ddf436ef8e12df876dcae4ecd6a8748577944c477bf4b20d5596e0c9843",
+        "signature": "2edd3ddf436ef8e12df876dcae4ecd6a8748577944c477bf4b20d5596e0c9843"
+      },
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2019.d.ts": {
+        "version": "0fc0f68d3f4d94aa65fab955592e4a9f2066e6f8ee2f66fcc45adf4037fc167b",
+        "signature": "0fc0f68d3f4d94aa65fab955592e4a9f2066e6f8ee2f66fcc45adf4037fc167b"
+      },
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.esnext.d.ts": {
+        "version": "1c05c805f62c1c06a60b7812cd8de2dff7a5bda2218ce5edda5d9d298b1c48e1",
+        "signature": "1c05c805f62c1c06a60b7812cd8de2dff7a5bda2218ce5edda5d9d298b1c48e1"
+      },
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "973df4e41aea3780ce77073777d37dd5896f684124f4c42409f3a832133837a4",
+        "signature": "973df4e41aea3780ce77073777d37dd5896f684124f4c42409f3a832133837a4"
+      },
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "2a0390a665763bcc90f0670e43c587928d8fefe2a94a11209c1e22cba7b09f52",
+        "signature": "2a0390a665763bcc90f0670e43c587928d8fefe2a94a11209c1e22cba7b09f52"
+      },
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "dd94d8ef48c562389eb58af8df3a3a34d11367f7c818192aa5f16470d469e3f0",
+        "signature": "dd94d8ef48c562389eb58af8df3a3a34d11367f7c818192aa5f16470d469e3f0"
+      },
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+        "version": "828413486bdcaa342558e8e4570b1b287b776cb61b4b70b0214bd10c5d9a94c3",
+        "signature": "828413486bdcaa342558e8e4570b1b287b776cb61b4b70b0214bd10c5d9a94c3"
+      },
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "6c9f73334f8bf47aea685ca5b46a8f7e992a223e96fbceb030f26a4d2324ba21",
+        "signature": "6c9f73334f8bf47aea685ca5b46a8f7e992a223e96fbceb030f26a4d2324ba21"
+      },
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "e6b8ff2798f8ebd7a1c7afd8671f2cb67ee1901c422f5964d74b0b34c6574ea2",
+        "signature": "e6b8ff2798f8ebd7a1c7afd8671f2cb67ee1901c422f5964d74b0b34c6574ea2"
+      },
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+        "version": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe",
+        "signature": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe"
+      },
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+        "version": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976",
+        "signature": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976"
+      },
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230",
+        "signature": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230"
+      },
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303",
+        "signature": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303"
+      },
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+        "version": "3f96f1e570aedbd97bf818c246727151e873125d0512e4ae904330286c721bc0",
+        "signature": "3f96f1e570aedbd97bf818c246727151e873125d0512e4ae904330286c721bc0"
+      },
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2017.object.d.ts": {
+        "version": "ff8ad203e83338289b0f5defc1a5b5c253fb7d251b464db497383f915a0df3f4",
+        "signature": "ff8ad203e83338289b0f5defc1a5b5c253fb7d251b464db497383f915a0df3f4"
+      },
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
+        "version": "b8667586a618c5cf64523d4e500ae39e781428abfb28f3de441fc66b56144b6f",
+        "signature": "b8667586a618c5cf64523d4e500ae39e781428abfb28f3de441fc66b56144b6f"
+      },
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2017.string.d.ts": {
+        "version": "21df2e0059f14dcb4c3a0e125859f6b6ff01332ee24b0065a741d121250bc71c",
+        "signature": "21df2e0059f14dcb4c3a0e125859f6b6ff01332ee24b0065a741d121250bc71c"
+      },
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2017.intl.d.ts": {
+        "version": "c1759cb171c7619af0d2234f2f8fb2a871ee88e956e2ed91bb61778e41f272c6",
+        "signature": "c1759cb171c7619af0d2234f2f8fb2a871ee88e956e2ed91bb61778e41f272c6"
+      },
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
+        "version": "28569d59e07d4378cb3d54979c4c60f9f06305c9bb6999ffe6cab758957adc46",
+        "signature": "28569d59e07d4378cb3d54979c4c60f9f06305c9bb6999ffe6cab758957adc46"
+      },
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": {
+        "version": "42102aaeb1bfec213be1e9777466a6d551eeba8567fed18c0cdbca8c35e3c6e4",
+        "signature": "42102aaeb1bfec213be1e9777466a6d551eeba8567fed18c0cdbca8c35e3c6e4"
+      },
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2018.intl.d.ts": {
+        "version": "1b820b57379c726f94af50cd60053674af53ff9d079c1563cc70071e8b757dd0",
+        "signature": "1b820b57379c726f94af50cd60053674af53ff9d079c1563cc70071e8b757dd0"
+      },
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2018.promise.d.ts": {
+        "version": "efe049114bad1035b0aa9a4a0359f50ab776e3897c411521e51d3013079cbd62",
+        "signature": "efe049114bad1035b0aa9a4a0359f50ab776e3897c411521e51d3013079cbd62"
+      },
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2018.regexp.d.ts": {
+        "version": "e7780d04cd4120ee554c665829db2bbdd6b947cbaa3c150b7d9ea74df3beb2e8",
+        "signature": "e7780d04cd4120ee554c665829db2bbdd6b947cbaa3c150b7d9ea74df3beb2e8"
+      },
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2019.array.d.ts": {
+        "version": "fc7c02b980e7dda0ed14d57ee71705c09efc51ec6286a10b971a25a3bb29262b",
+        "signature": "fc7c02b980e7dda0ed14d57ee71705c09efc51ec6286a10b971a25a3bb29262b"
+      },
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2019.object.d.ts": {
+        "version": "989b95205f1189943fab0ce12a39c80570edf8f200aca60e0fdc500afc4d5859",
+        "signature": "989b95205f1189943fab0ce12a39c80570edf8f200aca60e0fdc500afc4d5859"
+      },
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2019.string.d.ts": {
+        "version": "669427ac10ef9f52b6a7a502a66670eaabba675e0a660eb971041bd73c9894e3",
+        "signature": "669427ac10ef9f52b6a7a502a66670eaabba675e0a660eb971041bd73c9894e3"
+      },
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2019.symbol.d.ts": {
+        "version": "7a842c21e0fe143eb3ad4d689a1470bab5ed9bc7fd7223fe8b56cbae27038d62",
+        "signature": "7a842c21e0fe143eb3ad4d689a1470bab5ed9bc7fd7223fe8b56cbae27038d62"
+      },
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.esnext.intl.d.ts": {
+        "version": "f6e0c89daaf72eac38dfb1d5ef0972183f7f26a68da15bfe5bcb7cfccf0c7db8",
+        "signature": "f6e0c89daaf72eac38dfb1d5ef0972183f7f26a68da15bfe5bcb7cfccf0c7db8"
+      },
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.esnext.bigint.d.ts": {
+        "version": "63b66918290d794f73832a6d0325be5026236674fe8c0cb0b68d162000d7bbe8",
+        "signature": "63b66918290d794f73832a6d0325be5026236674fe8c0cb0b68d162000d7bbe8"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/globals.d.ts": {
+        "version": "0909474c73e738594b752e015ad0411825eee91669df44ebcf988ee4f2c0d38a",
+        "signature": "0909474c73e738594b752e015ad0411825eee91669df44ebcf988ee4f2c0d38a"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/assert.d.ts": {
+        "version": "58a52f282f1dad18179023804c1f3a7536bf875748a0a314abd43f60fd5b244f",
+        "signature": "58a52f282f1dad18179023804c1f3a7536bf875748a0a314abd43f60fd5b244f"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/async_hooks.d.ts": {
+        "version": "1305b079a057355f496bdde048716189178877a6b4fe0e9267a46af67f8c7561",
+        "signature": "1305b079a057355f496bdde048716189178877a6b4fe0e9267a46af67f8c7561"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/buffer.d.ts": {
+        "version": "fe892fea1e75a442fffb4a604d7eeb451e858787a9f2f01c4e83bf12a3b5048d",
+        "signature": "fe892fea1e75a442fffb4a604d7eeb451e858787a9f2f01c4e83bf12a3b5048d"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/child_process.d.ts": {
+        "version": "c5a3c14cb11afb48d405562e6843145caa67c60be9738f408cd7977ce30a0b00",
+        "signature": "c5a3c14cb11afb48d405562e6843145caa67c60be9738f408cd7977ce30a0b00"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/cluster.d.ts": {
+        "version": "ce629710e5e58724902b753212e97861fd73e2aa09f5d88cb6d55dc763cf8c8a",
+        "signature": "ce629710e5e58724902b753212e97861fd73e2aa09f5d88cb6d55dc763cf8c8a"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/console.d.ts": {
+        "version": "525c8fc510d9632d2a0a9de2d41c3ac1cdd79ff44d3b45c6d81cacabb683528d",
+        "signature": "525c8fc510d9632d2a0a9de2d41c3ac1cdd79ff44d3b45c6d81cacabb683528d"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/constants.d.ts": {
+        "version": "b952021e804dcd9cb5e5552e1ec8bf9f479b61e20da5641e2a542fe77db9a598",
+        "signature": "b952021e804dcd9cb5e5552e1ec8bf9f479b61e20da5641e2a542fe77db9a598"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/crypto.d.ts": {
+        "version": "325154b5b9b94af94b9c0cea4a051496693e6253be1abb2b6399b68331d70e46",
+        "signature": "325154b5b9b94af94b9c0cea4a051496693e6253be1abb2b6399b68331d70e46"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/dgram.d.ts": {
+        "version": "b6c6861bccf209a98eeddb99bdb7bd987fb29fc52130d5d9fd2f79d3607a0a7a",
+        "signature": "b6c6861bccf209a98eeddb99bdb7bd987fb29fc52130d5d9fd2f79d3607a0a7a"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/dns.d.ts": {
+        "version": "896cd7d58e9d832392a6e374a8f8b64f142089b4d2678a2c90fd8d1d49128677",
+        "signature": "896cd7d58e9d832392a6e374a8f8b64f142089b4d2678a2c90fd8d1d49128677"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/domain.d.ts": {
+        "version": "d5b7c8819ce1bd31a45f7675309e145ec28e3aa1b60a8e0637fd0e8916255baa",
+        "signature": "d5b7c8819ce1bd31a45f7675309e145ec28e3aa1b60a8e0637fd0e8916255baa"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts": {
+        "version": "0be551fde848d5adde38731272ee980bda2bde0f8bf2a76ce99e01b86985546c",
+        "signature": "0be551fde848d5adde38731272ee980bda2bde0f8bf2a76ce99e01b86985546c"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/fs.d.ts": {
+        "version": "443b649496d14353d14e79b502a210f33c2d868f4c07df84c0e08cb013c08211",
+        "signature": "443b649496d14353d14e79b502a210f33c2d868f4c07df84c0e08cb013c08211"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/http.d.ts": {
+        "version": "cc4cd9d8af7f5689b5df3c91d0fc287fafbd89e6e305183da28a6877a8aa08a8",
+        "signature": "cc4cd9d8af7f5689b5df3c91d0fc287fafbd89e6e305183da28a6877a8aa08a8"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/http2.d.ts": {
+        "version": "ef535a3849d5826d70b2b341420e239e180d2d9d64045e84683b6a52a82845b5",
+        "signature": "ef535a3849d5826d70b2b341420e239e180d2d9d64045e84683b6a52a82845b5"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/https.d.ts": {
+        "version": "dacbe08610729f6343ea9880ea8e737c6d7a6efa4a318d8f6acaf85db4aceed6",
+        "signature": "dacbe08610729f6343ea9880ea8e737c6d7a6efa4a318d8f6acaf85db4aceed6"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/inspector.d.ts": {
+        "version": "8cfa78f4c052a93ac1e7accb0a78ce331dbd14f277ee0e193279ec31ce7efb25",
+        "signature": "8cfa78f4c052a93ac1e7accb0a78ce331dbd14f277ee0e193279ec31ce7efb25"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/module.d.ts": {
+        "version": "03394bf8deb8781b490ae9266a843fbdf00647947d79e25fcbf1d89a9e9c8a66",
+        "signature": "03394bf8deb8781b490ae9266a843fbdf00647947d79e25fcbf1d89a9e9c8a66"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/net.d.ts": {
+        "version": "cc5fac2b9e45a6670b96fd32cb42c97e0d4a7b2ee12c87963c6fe0f55fa84f50",
+        "signature": "cc5fac2b9e45a6670b96fd32cb42c97e0d4a7b2ee12c87963c6fe0f55fa84f50"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/os.d.ts": {
+        "version": "1a6016bd905855b2b45881e9edbd7ab8c7175f8bcbb711ff06989c4bcdc75486",
+        "signature": "1a6016bd905855b2b45881e9edbd7ab8c7175f8bcbb711ff06989c4bcdc75486"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/path.d.ts": {
+        "version": "5fb30076f0e0e5744db8993648bfb67aadd895f439edad5cce039127a87a8a36",
+        "signature": "5fb30076f0e0e5744db8993648bfb67aadd895f439edad5cce039127a87a8a36"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/perf_hooks.d.ts": {
+        "version": "27ef4001526ee9d8afa57687a60bb3b59c52b32d29db0a2260094ab64726164f",
+        "signature": "27ef4001526ee9d8afa57687a60bb3b59c52b32d29db0a2260094ab64726164f"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/process.d.ts": {
+        "version": "3a8848a9c307429b861402cc69bc472ffe0c05b86474fc158723169161e16389",
+        "signature": "3a8848a9c307429b861402cc69bc472ffe0c05b86474fc158723169161e16389"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/punycode.d.ts": {
+        "version": "30ec6f9c683b988c3cfaa0c4690692049c4e7ed7dc6f6e94f56194c06b86f5e1",
+        "signature": "30ec6f9c683b988c3cfaa0c4690692049c4e7ed7dc6f6e94f56194c06b86f5e1"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/querystring.d.ts": {
+        "version": "e0070c45bf15b872f58eee948f71ad6f4f424f36330b2477753fc1aed3ece36e",
+        "signature": "e0070c45bf15b872f58eee948f71ad6f4f424f36330b2477753fc1aed3ece36e"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/readline.d.ts": {
+        "version": "94cf93922adcc9cb4acf11d8d71641af728de919a50ae55d8e83159afea1a42c",
+        "signature": "94cf93922adcc9cb4acf11d8d71641af728de919a50ae55d8e83159afea1a42c"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/repl.d.ts": {
+        "version": "65dbe15ed8a8ed5d4707a63868178dc38111cfc06de28a2e50713ca017a9c157",
+        "signature": "65dbe15ed8a8ed5d4707a63868178dc38111cfc06de28a2e50713ca017a9c157"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/stream.d.ts": {
+        "version": "15087156b728a1bdf46de0e1299f904c6a658af37f80851f6fe76fb21bb99b65",
+        "signature": "15087156b728a1bdf46de0e1299f904c6a658af37f80851f6fe76fb21bb99b65"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/string_decoder.d.ts": {
+        "version": "17e157df6125098a1a34eb4d201ee4ac03bbe97e471ab5627bb2c40fce555948",
+        "signature": "17e157df6125098a1a34eb4d201ee4ac03bbe97e471ab5627bb2c40fce555948"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/timers.d.ts": {
+        "version": "b40652bf8ce4a18133b31349086523b219724dca8df3448c1a0742528e7ad5b9",
+        "signature": "b40652bf8ce4a18133b31349086523b219724dca8df3448c1a0742528e7ad5b9"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/tls.d.ts": {
+        "version": "af4eb6cfde4501c70e7cfb453370eb671ae51e20a3e591ddff71cdd2c190114e",
+        "signature": "af4eb6cfde4501c70e7cfb453370eb671ae51e20a3e591ddff71cdd2c190114e"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/trace_events.d.ts": {
+        "version": "978aecd2e6bc2ac094e9a35eda98ff8586713857b3655e7c98ca5ed8f7d50662",
+        "signature": "978aecd2e6bc2ac094e9a35eda98ff8586713857b3655e7c98ca5ed8f7d50662"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/tty.d.ts": {
+        "version": "0fd8dac24f12d9fd1fcc275200dd1b6771072f20331a07b18f7dbcbe20f7d3f4",
+        "signature": "0fd8dac24f12d9fd1fcc275200dd1b6771072f20331a07b18f7dbcbe20f7d3f4"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/url.d.ts": {
+        "version": "1e3da92862604b1f7a32265169f9aa712c4567742d42597704e04ae3e07019e7",
+        "signature": "1e3da92862604b1f7a32265169f9aa712c4567742d42597704e04ae3e07019e7"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts": {
+        "version": "0f6382d5032e45eec50b8f6c1e18c77544bc4db2ef8f854d196b254ec16add12",
+        "signature": "0f6382d5032e45eec50b8f6c1e18c77544bc4db2ef8f854d196b254ec16add12"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/v8.d.ts": {
+        "version": "6ad2dd29dbf3aea031062298e9978d4b2a1fadd0997eb9d8caaf95aaa89e7033",
+        "signature": "6ad2dd29dbf3aea031062298e9978d4b2a1fadd0997eb9d8caaf95aaa89e7033"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/vm.d.ts": {
+        "version": "f98df5ec124f441b465332271d0b083aeec815cd3c92d9249b9739e6318477a9",
+        "signature": "f98df5ec124f441b465332271d0b083aeec815cd3c92d9249b9739e6318477a9"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/worker_threads.d.ts": {
+        "version": "16de20ae20cd1d948409a56b55832f3d416c66c8cb44bb8475e1e9db14d8e402",
+        "signature": "16de20ae20cd1d948409a56b55832f3d416c66c8cb44bb8475e1e9db14d8e402"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/zlib.d.ts": {
+        "version": "f91189e04264b0e41ee96ff96661c3871e739b90156df2f2288da7a81019dcd9",
+        "signature": "f91189e04264b0e41ee96ff96661c3871e739b90156df2f2288da7a81019dcd9"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/base.d.ts": {
+        "version": "6622f76993bdfeaacb947ba7c4cf26f2e5c5194194d02d792c3cba4174cd8fce",
+        "signature": "6622f76993bdfeaacb947ba7c4cf26f2e5c5194194d02d792c3cba4174cd8fce"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts": {
+        "version": "4f54f0a9dd3b644c99ec32b32f8804d5978bc854799b228ae9c467bf3c84c64c",
+        "signature": "4f54f0a9dd3b644c99ec32b32f8804d5978bc854799b228ae9c467bf3c84c64c"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/globals.d.ts": {
+        "version": "4926e99d2ad39c0bbd36f2d37cc8f52756bc7a5661ad7b12815df871a4b07ba1",
+        "signature": "4926e99d2ad39c0bbd36f2d37cc8f52756bc7a5661ad7b12815df871a4b07ba1"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/index.d.ts": {
+        "version": "765fc34423b93c2ab763670d8d11d99e5f47387c13c161d6f1640dd6d91b7d1c",
+        "signature": "765fc34423b93c2ab763670d8d11d99e5f47387c13c161d6f1640dd6d91b7d1c"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/accepts/index.d.ts": {
+        "version": "6738101ae8e56cd3879ab3f99630ada7d78097fc9fd334df7e766216778ca219",
+        "signature": "6738101ae8e56cd3879ab3f99630ada7d78097fc9fd334df7e766216778ca219"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/keygrip/index.d.ts": {
+        "version": "520fbbba71c7b9822e7aedc3943f0c7cdf479885e4d68c09c78fa7e73205ef96",
+        "signature": "520fbbba71c7b9822e7aedc3943f0c7cdf479885e4d68c09c78fa7e73205ef96"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/range-parser/index.d.ts": {
+        "version": "4e88b833be14c7f384e0dcd57bb30acd799e8e34d212635d693e41a75a71164b",
+        "signature": "4e88b833be14c7f384e0dcd57bb30acd799e8e34d212635d693e41a75a71164b"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/express-serve-static-core/index.d.ts": {
+        "version": "0e844fd1a3d13a837b300785b632ceb2cdced5797e189183ece36a0785a453e5",
+        "signature": "0e844fd1a3d13a837b300785b632ceb2cdced5797e189183ece36a0785a453e5"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/mime/index.d.ts": {
+        "version": "be27a64e821a3e5af838650e4aa25805c60f057d0c37a9762c378d19d364b3e6",
+        "signature": "be27a64e821a3e5af838650e4aa25805c60f057d0c37a9762c378d19d364b3e6"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/serve-static/index.d.ts": {
+        "version": "b27dd918d8c3f10270cadea529c69e3a9b37ce59db0852945a39068cc5c10fff",
+        "signature": "b27dd918d8c3f10270cadea529c69e3a9b37ce59db0852945a39068cc5c10fff"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/connect/index.d.ts": {
+        "version": "c3be42b83b5f57ae2f65280fa395f6d31f61304ac1a29b7b406b6a0e71da8c82",
+        "signature": "c3be42b83b5f57ae2f65280fa395f6d31f61304ac1a29b7b406b6a0e71da8c82"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/body-parser/index.d.ts": {
+        "version": "1b7919dbb6b43ff272f38f6f6522fb9f4e9e854356b2932a36aa4674f4a2fcf2",
+        "signature": "1b7919dbb6b43ff272f38f6f6522fb9f4e9e854356b2932a36aa4674f4a2fcf2"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/express/index.d.ts": {
+        "version": "a6742e25ac12860727c22a379707e050a126c48c4dd98ddd795a3a33dd0a63c7",
+        "signature": "a6742e25ac12860727c22a379707e050a126c48c4dd98ddd795a3a33dd0a63c7"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/cookies/index.d.ts": {
+        "version": "b8ba7d2aa2ad56c81554e4cd510b3a5d84aa7bbf9ab0d40a5d66ac671789fa5d",
+        "signature": "b8ba7d2aa2ad56c81554e4cd510b3a5d84aa7bbf9ab0d40a5d66ac671789fa5d"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/http-assert/index.d.ts": {
+        "version": "404f80cb0d07a25f6de8585c5357ef1029e477c6165ab0eca638744cb3aa1f5d",
+        "signature": "404f80cb0d07a25f6de8585c5357ef1029e477c6165ab0eca638744cb3aa1f5d"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa-compose/index.d.ts": {
+        "version": "b014e3054898a94dda8aff6a37db4582d5936f09af89876f0fc0e3d36888c20c",
+        "signature": "b014e3054898a94dda8aff6a37db4582d5936f09af89876f0fc0e3d36888c20c"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa/index.d.ts": {
+        "version": "62616fbead01ddb5ca94dfe2581d8310d1afd7de8494a601f852736d2292e74a",
+        "signature": "62616fbead01ddb5ca94dfe2581d8310d1afd7de8494a601f852736d2292e74a"
+      },
+      "/Users/lufo/w/loots/ts-microservice/lib/health.ts": {
+        "version": "9814aef04546c78d8b3bb5dbd811a14b6852d5acdfda8615494bbca18c774e27",
+        "signature": "d28ee98be752f81d723b52bdb39ca81214f3b696872f1b97b737a338c48c2af5"
+      },
+      "/Users/lufo/w/loots/ts-microservice/lib/json-error.ts": {
+        "version": "08a532734d9639fdeb1de82bc29769799555dca9f4ef324516f3296695c794c5",
+        "signature": "0fe62d0202ede8c7e2cc360b3fe7e26afa1884a8a4437eecd6dc95e1ddfa4a52"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/koa-oas3/lib/config.d.ts": {
+        "version": "c630cd4281c30770dc5434a1a1ec3bb3c9cf3146a6b93cee3fa6202b43a86ee0",
+        "signature": "c630cd4281c30770dc5434a1a1ec3bb3c9cf3146a6b93cee3fa6202b43a86ee0"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/ajv/lib/ajv.d.ts": {
+        "version": "2ededed48e7d88b78ed7d0212b78aa46c2c4ea96109f38b54185583db888baa9",
+        "signature": "2ededed48e7d88b78ed7d0212b78aa46c2c4ea96109f38b54185583db888baa9"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/model/SpecificationExtension.d.ts": {
+        "version": "9508fcc6616ea31bf848463f161571bcb0c8726b267a43e231f21fca775007e7",
+        "signature": "9508fcc6616ea31bf848463f161571bcb0c8726b267a43e231f21fca775007e7"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/model/OpenApi.d.ts": {
+        "version": "c69e3a56c4893933ec066625c71263b4b6e4b609e0df8dab8a4fd51c16c47d15",
+        "signature": "c69e3a56c4893933ec066625c71263b4b6e4b609e0df8dab8a4fd51c16c47d15"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/model/Server.d.ts": {
+        "version": "737286d5a8cddd8afc923c70d68c23ebd01700a0b53cad4949b633ffd304c777",
+        "signature": "737286d5a8cddd8afc923c70d68c23ebd01700a0b53cad4949b633ffd304c777"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/model/index.d.ts": {
+        "version": "6a967509640ff83b343c01c6dc5ef6330c929ce0e838b217768b46414e28e85c",
+        "signature": "6a967509640ff83b343c01c6dc5ef6330c929ce0e838b217768b46414e28e85c"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/dsl/OpenApiBuilder.d.ts": {
+        "version": "b5fb985d427871256ce82a572af57648e48a8372e1165936968ca5181d578da6",
+        "signature": "b5fb985d427871256ce82a572af57648e48a8372e1165936968ca5181d578da6"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/dsl/index.d.ts": {
+        "version": "72374cee3b4e1451d064a29c38ccf11e49293bac535ef2a29e963a1833118a84",
+        "signature": "72374cee3b4e1451d064a29c38ccf11e49293bac535ef2a29e963a1833118a84"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/index.d.ts": {
+        "version": "55b0987723fe57b0a8756299005ff218eefe1772d1215c68c20894aad5074453",
+        "signature": "55b0987723fe57b0a8756299005ff218eefe1772d1215c68c20894aad5074453"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/oas3-chow-chow/lib/compiler/CompiledPath.d.ts": {
+        "version": "b7ca56e1dc0ebf658f560fc30850d868df1dfc2d435c38f17fd8ddf4ee93f490",
+        "signature": "b7ca56e1dc0ebf658f560fc30850d868df1dfc2d435c38f17fd8ddf4ee93f490"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/oas3-chow-chow/lib/compiler/index.d.ts": {
+        "version": "5569dbd4949d8c90908e7f7a77ff7598d999cbaa73c210881cbbd3b193d0bd29",
+        "signature": "5569dbd4949d8c90908e7f7a77ff7598d999cbaa73c210881cbbd3b193d0bd29"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/oas3-chow-chow/lib/error.d.ts": {
+        "version": "36f0e5ed4c64bba58d07a901dcfcb8b7491b4ebd3e0b0fd8d3152ba6bccb8955",
+        "signature": "36f0e5ed4c64bba58d07a901dcfcb8b7491b4ebd3e0b0fd8d3152ba6bccb8955"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/oas3-chow-chow/lib/index.d.ts": {
+        "version": "b41f671e370312b000ad367c9cd1877776f09824f2abf014fbb64cf5b62ace83",
+        "signature": "b41f671e370312b000ad367c9cd1877776f09824f2abf014fbb64cf5b62ace83"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/koa-oas3/lib/index.d.ts": {
+        "version": "9245d3b65d1690daed4e44b0583b44952cf07591cc672484f3f8a0af70530aea",
+        "signature": "9245d3b65d1690daed4e44b0583b44952cf07591cc672484f3f8a0af70530aea"
+      },
+      "/Users/lufo/w/loots/ts-microservice/lib/openapi.ts": {
+        "version": "6f59c149b2aac45f898d8512df4c2c302e33e6f55832dd8e827ff3e990ee047d",
+        "signature": "75318a9b1c40af4e4f3717456cc2c4bc1598ea874ac8c45081e8a4536a2c20cd"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/koa-jwt/types/index.d.ts": {
+        "version": "3a01597b8f4bb205da04a89d9eb2040c08691e9b72875cd844ff7b263b8298f3",
+        "signature": "3a01597b8f4bb205da04a89d9eb2040c08691e9b72875cd844ff7b263b8298f3"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa-router/index.d.ts": {
+        "version": "e56dae75e9b2d7770d53878650eb0ce02cc5e85b69257cec8261d8f48b5209c0",
+        "signature": "e56dae75e9b2d7770d53878650eb0ce02cc5e85b69257cec8261d8f48b5209c0"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/sonic-boom/index.d.ts": {
+        "version": "ec24a29b80b2921dfc0febff3decf48c02aff604f17f1d5d53a24cace9cdea89",
+        "signature": "ec24a29b80b2921dfc0febff3decf48c02aff604f17f1d5d53a24cace9cdea89"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/pino/index.d.ts": {
+        "version": "19797f8c92e036e7043941ab5a5eb93e17f74e0890f490246243cb5e7d77ab97",
+        "signature": "19797f8c92e036e7043941ab5a5eb93e17f74e0890f490246243cb5e7d77ab97"
+      },
+      "/Users/lufo/w/loots/ts-microservice/lib/types.ts": {
+        "version": "0b92422acf78c7c7470e6d6f1dd3df4eef3951a00b8343e594d1465705b3c6f8",
+        "signature": "0a0d5f10acd98dcba1525c53e8c8e3cf807ee164fd9aa8058cc0d2506c9678f3"
+      },
+      "/Users/lufo/w/loots/ts-microservice/lib/utils.ts": {
+        "version": "fc15e51a7b3027b6a4d47b947332449f2921fa8d19f7b34e64fca4b70b5304dc",
+        "signature": "1a2e421b4fdbc187404cbe21c9faa04e728d5d7197a5eef026fc9e5ae4e32504"
+      },
+      "/Users/lufo/w/loots/ts-microservice/lib/routes.ts": {
+        "version": "0d319bcddcf03179e532d61a3602295936904e139983c54ec40786e52d9ad031",
+        "signature": "57c7bff74f7977944816134171cd06d61102b3071fd2364a3401151a55b0f42d"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa__cors/index.d.ts": {
+        "version": "b79cda8e2122af980fcb0bd09d0ecacdf6be4f38088d6d23818547c9ee31a38d",
+        "signature": "b79cda8e2122af980fcb0bd09d0ecacdf6be4f38088d6d23818547c9ee31a38d"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa-bodyparser/index.d.ts": {
+        "version": "b8d67a816b437cd16692069fa2d9c2255216673fdf9d1bdd6a9d2f23a803796f",
+        "signature": "b8d67a816b437cd16692069fa2d9c2255216673fdf9d1bdd6a9d2f23a803796f"
+      },
+      "/Users/lufo/w/loots/ts-microservice/lib/service.ts": {
+        "version": "301f367332cf477976d79803d64fd2fd0d2e2c4769d15f954905e30226d1376d",
+        "signature": "d6ea76471513c29ce455b9479dd574cca62e72c636f9677d23466f522f531bd8"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/cookiejar/index.d.ts": {
+        "version": "16b7fb094ffaa5d270f934e7406e8baee2f8245cfabf6dcc20f693389f005f56",
+        "signature": "16b7fb094ffaa5d270f934e7406e8baee2f8245cfabf6dcc20f693389f005f56"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/superagent/index.d.ts": {
+        "version": "e8bd972c3895277d7d9e702262a0408fbe36bb69c733bf26f9f15c396cad34c5",
+        "signature": "e8bd972c3895277d7d9e702262a0408fbe36bb69c733bf26f9f15c396cad34c5"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/supertest/index.d.ts": {
+        "version": "79e8fe7df47b9eee82aba6de491c17ed11759171ed0ee0d804e83971b2a17fc3",
+        "signature": "79e8fe7df47b9eee82aba6de491c17ed11759171ed0ee0d804e83971b2a17fc3"
+      },
+      "/Users/lufo/w/loots/ts-microservice/test/world.ts": {
+        "version": "2e042a82bda5329091c49bccac9109d276c6ebd30c00d7af3727f09a426accfb",
+        "signature": "c8dbf2f50b4e1e132580eac96ce895ce0c0f7f2e8d4dbafa0998a11ab7640908"
+      },
+      "/Users/lufo/w/loots/ts-microservice/test/cors.test.ts": {
+        "version": "2a8bb4770cfd176689caf6405009f1359ca96c8683bbd1bbce72d0797620821d",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
+      },
+      "/Users/lufo/w/loots/ts-microservice/test/health.test.ts": {
+        "version": "027945ce7d2c491d64526abbd84a126e9503303a98b7d7cc44fdb59a1be09858",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
+      },
+      "/Users/lufo/w/loots/ts-microservice/test/json-error.test.ts": {
+        "version": "f1c52260d2152dd0a59f3777db11f5c048dc57bb0234bf108e19c20f50716789",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
+      },
+      "/Users/lufo/w/loots/ts-microservice/bin/start.ts": {
+        "version": "a1aad38abbf83d9828c3494bb27204b9b84b53029b6e7cdb8c42f8808db7a813",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@babel/types/lib/index.d.ts": {
+        "version": "9eac0dd4de5669db2b8321dffa400b997f7b21181118efc7a2c1743d93d4be57",
+        "signature": "9eac0dd4de5669db2b8321dffa400b997f7b21181118efc7a2c1743d93d4be57"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/babel__generator/index.d.ts": {
+        "version": "19fb2161edf60fbe73ee3650c1cee889df0525ed852eff2d5fa6e5480c132ae3",
+        "signature": "19fb2161edf60fbe73ee3650c1cee889df0525ed852eff2d5fa6e5480c132ae3"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/babel__traverse/index.d.ts": {
+        "version": "30b805fe6d4272d147fea35fd859bc5f3e13b7c9d762bd35948fe842919452a5",
+        "signature": "30b805fe6d4272d147fea35fd859bc5f3e13b7c9d762bd35948fe842919452a5"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@babel/parser/typings/babel-parser.d.ts": {
+        "version": "67fb81fcd13edc5410665fa72892dd0878654b54946e8b0f10af5adc234bfe8f",
+        "signature": "67fb81fcd13edc5410665fa72892dd0878654b54946e8b0f10af5adc234bfe8f"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/babel__template/index.d.ts": {
+        "version": "3e0a34f7207431d967dc32d593d1cda0c23975e9484bc8895b39d96ffca4a0d8",
+        "signature": "3e0a34f7207431d967dc32d593d1cda0c23975e9484bc8895b39d96ffca4a0d8"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/babel__core/index.d.ts": {
+        "version": "8f279d393b3572c5c0a8428d46d00281c38a5ef52dc9dd513fc861c31a5d6420",
+        "signature": "8f279d393b3572c5c0a8428d46d00281c38a5ef52dc9dd513fc861c31a5d6420"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/istanbul-lib-coverage/index.d.ts": {
+        "version": "9e951ec338c4232d611552a1be7b4ecec79a8c2307a893ce39701316fe2374bd",
+        "signature": "9e951ec338c4232d611552a1be7b4ecec79a8c2307a893ce39701316fe2374bd"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/istanbul-lib-report/index.d.ts": {
+        "version": "70c61ff569aabdf2b36220da6c06caaa27e45cd7acac81a1966ab4ee2eadc4f2",
+        "signature": "70c61ff569aabdf2b36220da6c06caaa27e45cd7acac81a1966ab4ee2eadc4f2"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/istanbul-reports/index.d.ts": {
+        "version": "93b59bc67329d5add033e3198583c39aa939cef891e6a2b763e0bea2b514ea9b",
+        "signature": "93b59bc67329d5add033e3198583c39aa939cef891e6a2b763e0bea2b514ea9b"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/jest-diff/index.d.ts": {
+        "version": "6ecb326999da47034eff85653423767152858fbb7acf0433f7603c9abf1e3f06",
+        "signature": "6ecb326999da47034eff85653423767152858fbb7acf0433f7603c9abf1e3f06"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/jest-diff/build/types.d.ts": {
+        "version": "71ba0678a3c647f5c0706ae975c031ace0d464e60f9ce56eaa7f1678d065aab7",
+        "signature": "71ba0678a3c647f5c0706ae975c031ace0d464e60f9ce56eaa7f1678d065aab7"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/jest-diff/build/index.d.ts": {
+        "version": "b2c5ded6320c45c5d3e1c481c5d2808adf24dd1a59ffc944b72a418e95da5b17",
+        "signature": "b2c5ded6320c45c5d3e1c481c5d2808adf24dd1a59ffc944b72a418e95da5b17"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/jest/index.d.ts": {
+        "version": "9ba92686c69056523f61df30af455805d73adadc45c06ed104e7300a35857421",
+        "signature": "9ba92686c69056523f61df30af455805d73adadc45c06ed104e7300a35857421"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/stack-utils/index.d.ts": {
+        "version": "41422586881bcd739b4e62d9b91cd29909f8572aa3e3cdf316b7c50f14708d49",
+        "signature": "41422586881bcd739b4e62d9b91cd29909f8572aa3e3cdf316b7c50f14708d49"
+      },
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/yargs/index.d.ts": {
+        "version": "8f3237f03af87871a18d49ff52dec94d71eabecca464d5f2a81e34b55fb60bb5",
+        "signature": "8f3237f03af87871a18d49ff52dec94d71eabecca464d5f2a81e34b55fb60bb5"
+      }
+    },
+    "options": {
+      "module": 1,
+      "target": 4,
+      "lib": [
+        "lib.dom.d.ts",
+        "lib.esnext.d.ts"
+      ],
+      "allowSyntheticDefaultImports": true,
+      "alwaysStrict": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,
+      "noImplicitAny": true,
+      "noFallthroughCasesInSwitch": true,
+      "noImplicitReturns": true,
+      "noImplicitThis": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "incremental": true,
+      "tsBuildInfoFile": "/Users/lufo/w/loots/ts-microservice/.build",
+      "outDir": "/Users/lufo/w/loots/ts-microservice/.out",
+      "configFilePath": "/Users/lufo/w/loots/ts-microservice/tsconfig.json"
+    },
+    "referencedMap": {
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es5.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2016.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2017.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2018.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2019.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.esnext.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.dom.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.core.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2017.object.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2017.string.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2017.intl.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2018.intl.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2018.promise.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2018.regexp.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2019.array.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2019.object.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2019.string.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2019.symbol.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.esnext.intl.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.esnext.bigint.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/globals.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/assert.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/async_hooks.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/buffer.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/child_process.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/net.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/stream.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/cluster.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/child_process.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/net.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/console.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/constants.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/crypto.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/stream.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/dgram.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/net.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/dns.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/dns.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/domain.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/fs.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/stream.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/url.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/http.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/stream.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/url.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/net.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/http2.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/fs.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/net.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/stream.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/tls.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/url.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/http.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/https.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/tls.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/http.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/url.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/inspector.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/module.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/net.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/stream.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/dns.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/os.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/path.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/perf_hooks.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/async_hooks.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/process.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/punycode.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/querystring.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/readline.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/stream.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/repl.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/readline.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/vm.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/stream.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/string_decoder.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/timers.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/tls.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/crypto.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/dns.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/net.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/stream.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/trace_events.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/tty.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/net.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/url.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/querystring.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/v8.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/stream.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/vm.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/worker_threads.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/vm.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/stream.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/zlib.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/stream.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/base.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/globals.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/assert.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/async_hooks.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/buffer.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/child_process.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/cluster.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/console.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/constants.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/crypto.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/dgram.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/dns.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/domain.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/fs.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/http.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/http2.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/https.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/inspector.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/module.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/net.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/os.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/path.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/perf_hooks.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/process.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/punycode.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/querystring.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/readline.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/repl.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/stream.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/string_decoder.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/timers.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/tls.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/trace_events.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/tty.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/url.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/v8.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/vm.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/worker_threads.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/zlib.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/globals.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/globals.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/base.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/globals.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/accepts/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/http.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/keygrip/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/range-parser/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/express-serve-static-core/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/http.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/range-parser/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/mime/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/serve-static/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/express-serve-static-core/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/mime/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/connect/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/http.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/body-parser/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/connect/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/http.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/express/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/body-parser/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/serve-static/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/express-serve-static-core/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/cookies/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/http.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/keygrip/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/express/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/connect/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/http-assert/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa-compose/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/accepts/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/cookies/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/http.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/http2.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/http-assert/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/keygrip/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa-compose/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/net.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/url.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/lib/health.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/lib/json-error.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/koa-oas3/lib/config.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/ajv/lib/ajv.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/model/SpecificationExtension.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/model/OpenApi.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/model/SpecificationExtension.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/model/Server.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/model/OpenApi.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/model/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/model/SpecificationExtension.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/model/OpenApi.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/model/Server.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/dsl/OpenApiBuilder.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/model/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/dsl/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/dsl/OpenApiBuilder.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/model/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/dsl/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/oas3-chow-chow/lib/compiler/CompiledPath.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/oas3-chow-chow/lib/compiler/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/oas3-chow-chow/lib/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/oas3-chow-chow/lib/compiler/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/oas3-chow-chow/lib/compiler/CompiledPath.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/oas3-chow-chow/lib/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/oas3-chow-chow/lib/error.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/oas3-chow-chow/lib/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/ajv/lib/ajv.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/oas3-chow-chow/lib/compiler/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/oas3-chow-chow/lib/error.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/koa-oas3/lib/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/koa-oas3/lib/config.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/oas3-chow-chow/lib/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/lib/types.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa-bodyparser/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/lib/openapi.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/koa-oas3/lib/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/koa-jwt/types/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa-router/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/sonic-boom/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/pino/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/stream.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/http.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/sonic-boom/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/lib/types.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/pino/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/koa-oas3/lib/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa-bodyparser/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/lib/utils.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/lib/routes.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/koa-jwt/types/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa-router/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/lib/types.ts",
+        "/Users/lufo/w/loots/ts-microservice/lib/utils.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa__cors/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa-bodyparser/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/koa-oas3/lib/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/lib/types.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/lib/service.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa__cors/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa-bodyparser/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/pino/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/lib/health.ts",
+        "/Users/lufo/w/loots/ts-microservice/lib/json-error.ts",
+        "/Users/lufo/w/loots/ts-microservice/lib/openapi.ts",
+        "/Users/lufo/w/loots/ts-microservice/lib/routes.ts",
+        "/Users/lufo/w/loots/ts-microservice/lib/types.ts",
+        "/Users/lufo/w/loots/ts-microservice/lib/utils.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/cookiejar/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/superagent/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/fs.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/https.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/stream.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/cookiejar/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/supertest/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/superagent/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/test/world.ts": [
+        "/Users/lufo/w/loots/ts-microservice/lib/service.ts",
+        "/Users/lufo/w/loots/ts-microservice/lib/types.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/http.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/supertest/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/test/cors.test.ts": [
+        "/Users/lufo/w/loots/ts-microservice/test/world.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/test/health.test.ts": [
+        "/Users/lufo/w/loots/ts-microservice/test/world.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/test/json-error.test.ts": [
+        "/Users/lufo/w/loots/ts-microservice/test/world.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/bin/start.ts": [
+        "/Users/lufo/w/loots/ts-microservice/lib/service.ts",
+        "/Users/lufo/w/loots/ts-microservice/lib/types.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@babel/types/lib/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/babel__generator/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@babel/types/lib/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/babel__traverse/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@babel/types/lib/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@babel/parser/typings/babel-parser.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@babel/types/lib/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/babel__template/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@babel/parser/typings/babel-parser.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@babel/types/lib/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/babel__core/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/babel__generator/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/babel__traverse/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/babel__template/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@babel/types/lib/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@babel/parser/typings/babel-parser.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/istanbul-lib-coverage/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/istanbul-lib-report/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/istanbul-lib-coverage/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/istanbul-reports/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/istanbul-lib-report/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/istanbul-lib-coverage/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/jest-diff/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/jest-diff/build/types.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/jest-diff/build/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/jest-diff/build/types.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/jest/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/jest-diff/build/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/jest-diff/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/stack-utils/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/yargs/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es5.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2016.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2017.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2018.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2019.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.esnext.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.dom.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.core.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2017.object.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2017.string.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2017.intl.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2018.intl.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2018.promise.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2018.regexp.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2019.array.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2019.object.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2019.string.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2019.symbol.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.esnext.intl.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.esnext.bigint.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/globals.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/assert.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/base.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/globals.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/assert.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/async_hooks.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/buffer.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/child_process.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/cluster.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/console.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/constants.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/crypto.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/dgram.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/dns.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/domain.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/fs.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/http.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/http2.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/https.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/inspector.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/module.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/net.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/os.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/path.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/perf_hooks.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/process.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/punycode.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/querystring.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/readline.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/repl.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/stream.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/string_decoder.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/timers.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/tls.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/trace_events.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/tty.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/url.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/v8.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/vm.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/worker_threads.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/zlib.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/base.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/globals.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/superagent/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/fs.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/https.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/stream.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/cookiejar/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/supertest/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/superagent/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/test/world.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/http.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/lib/types.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/supertest/index.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/pino/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/stream.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/http.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/sonic-boom/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/lib/service.ts": [
+        "/Users/lufo/w/loots/ts-microservice/lib/types.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa/index.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/lib/types.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/pino/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa/index.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa-bodyparser/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/koa-oas3/lib/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/lib/types.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/koa-oas3/lib/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/koa-oas3/lib/config.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/oas3-chow-chow/lib/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/lib/types.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa-bodyparser/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/lib/openapi.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa-compose/index.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/lib/routes.ts": [
+        "/Users/lufo/w/loots/ts-microservice/lib/types.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa-router/index.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/sonic-boom/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/accepts/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/cookies/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/http.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/http2.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/http-assert/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/keygrip/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa-compose/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/net.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/url.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa__cors/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa-router/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/koa-jwt/types/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/koa-oas3/lib/config.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/lib/json-error.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa/index.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/lib/health.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa/index.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa-compose/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/cookies/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/http.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/keygrip/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/express/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/connect/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/body-parser/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/connect/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/http.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/express/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/body-parser/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/serve-static/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/express-serve-static-core/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/connect/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/http.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/express-serve-static-core/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/http.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/range-parser/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/serve-static/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/express-serve-static-core/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/mime/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/accepts/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/http.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/async_hooks.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/perf_hooks.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/async_hooks.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/buffer.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/child_process.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/net.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/stream.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/cluster.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/child_process.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/net.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/console.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/constants.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/crypto.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/stream.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/tls.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/crypto.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/dns.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/net.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/stream.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/https.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/tls.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/http.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/url.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/http2.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/fs.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/net.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/stream.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/tls.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/url.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/http.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/dgram.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/net.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/dns.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/dns.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/net.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/stream.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/dns.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/tty.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/net.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/http.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/stream.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/url.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/net.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/domain.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/worker_threads.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/vm.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/stream.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/stream.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/zlib.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/stream.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/v8.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/stream.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/readline.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/stream.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/repl.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/readline.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/vm.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/fs.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/stream.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/url.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/inspector.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/module.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/os.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/path.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/process.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/punycode.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/querystring.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/url.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/querystring.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/string_decoder.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/timers.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/trace_events.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/yargs/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/stack-utils/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/jest/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/jest-diff/build/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/jest-diff/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/jest-diff/build/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/jest-diff/build/types.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/jest-diff/build/types.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/jest-diff/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/istanbul-reports/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/istanbul-lib-report/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/istanbul-lib-coverage/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/istanbul-lib-report/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/istanbul-lib-coverage/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/istanbul-lib-coverage/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/babel__core/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/babel__generator/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/babel__traverse/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/babel__template/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@babel/types/lib/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@babel/parser/typings/babel-parser.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/babel__template/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@babel/parser/typings/babel-parser.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@babel/types/lib/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@babel/parser/typings/babel-parser.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@babel/types/lib/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/babel__traverse/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@babel/types/lib/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/babel__generator/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@babel/types/lib/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@babel/types/lib/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/cookiejar/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/oas3-chow-chow/lib/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/ajv/lib/ajv.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/oas3-chow-chow/lib/compiler/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/oas3-chow-chow/lib/error.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/oas3-chow-chow/lib/compiler/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/oas3-chow-chow/lib/compiler/CompiledPath.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/oas3-chow-chow/lib/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/oas3-chow-chow/lib/compiler/CompiledPath.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/oas3-chow-chow/lib/compiler/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/oas3-chow-chow/lib/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/oas3-chow-chow/lib/error.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/model/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/dsl/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/dsl/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/dsl/OpenApiBuilder.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/dsl/OpenApiBuilder.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/model/index.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/model/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/model/SpecificationExtension.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/model/OpenApi.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/model/Server.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/model/Server.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/model/OpenApi.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/model/OpenApi.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/model/SpecificationExtension.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/model/SpecificationExtension.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/ajv/lib/ajv.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/http-assert/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/mime/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/range-parser/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/keygrip/index.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/globals.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/globals.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts"
+      ],
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/vm.d.ts": [
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+        "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es5.d.ts",
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.d.ts",
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2016.d.ts",
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2017.d.ts",
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2018.d.ts",
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2019.d.ts",
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.esnext.d.ts",
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.dom.d.ts",
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2018.intl.d.ts",
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2018.promise.d.ts",
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2018.regexp.d.ts",
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2019.array.d.ts",
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2019.object.d.ts",
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2019.string.d.ts",
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.es2019.symbol.d.ts",
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.esnext.intl.d.ts",
+      "/Users/lufo/.nodenv/versions/12.0.0/lib/node_modules/typescript/lib/lib.esnext.bigint.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/globals.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/assert.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/async_hooks.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/buffer.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/child_process.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/cluster.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/console.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/constants.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/crypto.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/dgram.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/dns.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/domain.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/events.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/fs.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/http.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/http2.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/https.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/inspector.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/module.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/net.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/os.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/path.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/perf_hooks.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/process.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/punycode.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/querystring.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/readline.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/repl.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/stream.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/string_decoder.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/timers.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/tls.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/trace_events.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/tty.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/url.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/util.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/v8.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/vm.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/worker_threads.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/zlib.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/base.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/util.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/globals.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/node/ts3.2/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/accepts/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/keygrip/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/range-parser/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/express-serve-static-core/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/mime/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/serve-static/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/connect/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/body-parser/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/express/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/cookies/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/http-assert/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa-compose/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/lib/health.ts",
+      "/Users/lufo/w/loots/ts-microservice/lib/json-error.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/koa-oas3/lib/config.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/ajv/lib/ajv.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/model/SpecificationExtension.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/model/OpenApi.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/model/Server.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/model/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/dsl/OpenApiBuilder.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/dsl/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/openapi3-ts/dist/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/oas3-chow-chow/lib/compiler/CompiledPath.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/oas3-chow-chow/lib/compiler/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/oas3-chow-chow/lib/error.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/oas3-chow-chow/lib/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/koa-oas3/lib/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/lib/openapi.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/koa-jwt/types/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa-router/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/sonic-boom/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/pino/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/lib/types.ts",
+      "/Users/lufo/w/loots/ts-microservice/lib/utils.ts",
+      "/Users/lufo/w/loots/ts-microservice/lib/routes.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa__cors/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/koa-bodyparser/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/lib/service.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/cookiejar/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/superagent/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/supertest/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/test/world.ts",
+      "/Users/lufo/w/loots/ts-microservice/test/cors.test.ts",
+      "/Users/lufo/w/loots/ts-microservice/test/health.test.ts",
+      "/Users/lufo/w/loots/ts-microservice/test/json-error.test.ts",
+      "/Users/lufo/w/loots/ts-microservice/bin/start.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@babel/types/lib/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/babel__generator/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/babel__traverse/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@babel/parser/typings/babel-parser.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/babel__template/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/babel__core/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/istanbul-lib-coverage/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/istanbul-lib-report/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/istanbul-reports/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/jest-diff/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/jest-diff/build/types.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/jest-diff/build/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/jest/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/stack-utils/index.d.ts",
+      "/Users/lufo/w/loots/ts-microservice/node_modules/@types/yargs/index.d.ts"
+    ]
+  },
+  "version": "3.5.1"
+}

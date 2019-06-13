@@ -1,0 +1,277 @@
+openapi: 3.0.0
+info:
+  version: 1.0.0
+  title: Service Title
+servers:
+  - url: 'https://service.{environment}.com'
+    variables:
+      environment:
+        enum:
+          - l00ts
+          - loots
+        default: l00ts
+paths:
+  /cats:
+    get:
+      summary: Get cats in the public roster
+      parameters:
+        - in: query
+          name: city
+          description: Search only cats living in this city
+          schema:
+            type: string
+          example: berlin
+      responses:
+        '200':
+          $ref: '#/components/responses/CatsCollection'
+    post:
+      summary: Add a cat to the public roster
+      security:
+        - bearerAuth: []
+          cookieAuth: []
+      requestBody:
+        $ref: '#/components/requestBodies/CatRecord'
+      responses:
+        '201':
+          $ref: '#/components/responses/AddCatResponse'
+        '400':
+          $ref: '#/components/responses/BadRequestError'
+        '409':
+          $ref: '#/components/responses/ConflictError'
+  /my/cats:
+    get:
+      summary: Get cats of the authenticated user.
+      security:
+        - bearerAuth: []
+          cookieAuth: []
+      responses:
+        '200':
+          $ref: '#/components/responses/CatsCollection'
+        '401':
+          $ref: '#/components/responses/UnauthorizedError'
+    post:
+      summary: Add a cat to the authenticated user's roster
+      security:
+        - bearerAuth: []
+          cookieAuth: []
+      requestBody:
+        $ref: '#/components/requestBodies/CatRecord'
+      responses:
+        '201':
+          $ref: '#/components/responses/AddCatResponse'
+        '400':
+          $ref: '#/components/responses/BadRequestError'
+        '401':
+          $ref: '#/components/responses/UnauthorizedError'
+        '409':
+          $ref: '#/components/responses/ConflictError'
+  '/my/cats/{catId}':
+    parameters:
+      - in: path
+        name: catId
+        description: Cat identifier
+        schema:
+          type: string
+        required: true
+    put:
+      summary: Update a cat in the authenticated user's roster
+      security:
+        - bearerAuth: []
+          cookieAuth: []
+      requestBody:
+        $ref: '#/components/requestBodies/CatRecord'
+      responses:
+        '204':
+          $ref: '#/components/responses/NoContent'
+        '400':
+          $ref: '#/components/responses/BadRequestError'
+        '401':
+          $ref: '#/components/responses/UnauthorizedError'
+        '404':
+          $ref: '#/components/responses/NotFoundError'
+        '409':
+          $ref: '#/components/responses/ConflictError'
+    delete:
+      summary: Delete a cat in the authenticated user's roster
+      security:
+        - bearerAuth: []
+          cookieAuth: []
+      responses:
+        '204':
+          $ref: '#/components/responses/NoContent'
+        '401':
+          $ref: '#/components/responses/UnauthorizedError'
+        '404':
+          $ref: '#/components/responses/NotFoundError'
+  /health:
+    get:
+      summary: Health status
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    enum:
+                      - OK
+        '503':
+          description: Service unavailable
+          headers:
+            Retry-After:
+              description: Number of seconds when the server will likely become available again
+              schema:
+                type: integer
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error:
+                  name: ServiceUnavailable
+                  message: The server is not ready to handle the request
+                  hint: Check the Retry-After header to see the estimated time for the recovery of the service
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+    cookieAuth:
+      type: apiKey
+      in: cookie
+      name: loots.at
+  requestBodies:
+    CatRecord:
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/CatRecord'
+  responses:
+    CatsCollection:
+      description: OK
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Cats'
+    AddCatResponse:
+      description: Created
+      headers:
+        Location:
+          description: URI pointing to the created resource.
+          schema:
+            type: string
+            format: uri
+    NoContent:
+      description: No content
+    BadRequestError:
+      description: Bad Request
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+          example:
+            error:
+              name: BadRequest
+              message: '''someParameter'' cannot be empty'
+    NotFoundError:
+      description: Not Found
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+          example:
+            error:
+              name: NotFound
+              message: The specified resource was not found
+    ConflictError:
+      description: Conflict
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+          example:
+            error:
+              name: DuplicateCat
+              message: There is another cat with the given nickname
+    UnauthorizedError:
+      description: Unauthorized
+      headers:
+        WWW-Authenticate:
+          description: Provides information on how to authorize correctly
+          schema:
+            type: string
+            enum:
+              - Bearer
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+          example:
+            error:
+              name: Unauthorized
+              message: The request lacks valid authentication credentials for the target resource
+  schemas:
+    Cats:
+      type: object
+      properties:
+        items:
+          type: array
+          items:
+            $ref: '#/components/schemas/Cat'
+      required:
+        - items
+    Cat:
+      allOf:
+        - $ref: '#/components/schemas/Document'
+        - $ref: '#/components/schemas/CatRecord'
+    CatRecord:
+      type: object
+      properties:
+        nickname:
+          type: string
+          minLength: 2
+          maxLength: 12
+        city:
+          type: string
+          minLength: 2
+          maxLength: 50
+        color:
+          type: string
+      required:
+        - nickname
+        - city
+      example:
+        nickname: Rufus
+        city: Berlin
+        color: Golden
+    Document:
+      type: object
+      properties:
+        id:
+          type: string
+      required:
+        - id
+    Error:
+      type: object
+      properties:
+        error:
+          type: object
+          properties:
+            name:
+              type: string
+            message:
+              type: string
+            hint:
+              type: string
+          required:
+            - name
+            - message
+      example:
+        error:
+          name: ErrorName
+          message: A message describing the error
+          hint: Sometimes errors include a hint about possible solutions

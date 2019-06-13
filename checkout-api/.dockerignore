@@ -1,0 +1,12 @@
+.vscode
+node_modules
+test
+.drone.yml
+.editorconfig
+.env
+.env.sample
+.eslintrc.json
+.gitignore
+.node-version
+.prettierrc.json
+README.md
